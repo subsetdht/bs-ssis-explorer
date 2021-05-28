@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace SSISExplorer
+namespace SSISExplorer.Diagram
 {
     class SSISEdgeLayoutNode
     {

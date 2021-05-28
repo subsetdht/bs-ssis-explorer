@@ -9,9 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace SSISExplorer
+namespace SSISExplorer.Diagram
 {
-    class SSISDiagram
+    public class SSISDiagram
     {
         public List<XElement> DiagramElementList { get; }
         public List<XElement> DiagramConnectorList { get; }
@@ -201,7 +201,7 @@ namespace SSISExplorer
             return offsetPoint;
         }
 
-        internal Size GetSize()
+        public Size GetSize()
         {
             Size size = new Size();
             int maxX = 0;

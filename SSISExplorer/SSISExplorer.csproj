@@ -104,7 +104,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExecutionStatus.cs" />
     <Compile Include="SSISExecution.cs" />
     <Compile Include="ProcessExplorer.cs">
       <SubType>Form</SubType>
@@ -115,11 +114,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryProvider.cs" />
-    <Compile Include="SSISDiagram.cs" />
-    <Compile Include="SSISDiagramNode.cs" />
-    <Compile Include="SSISDiagramUtil.cs" />
-    <Compile Include="SSISEdgeLayoutNode.cs" />
-    <Compile Include="TelusColours.cs" />
     <EmbeddedResource Include="ProcessExplorer.resx">
       <DependentUpon>ProcessExplorer.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +159,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SSISExplorer.Diagram\SSISExplorer.Diagram.csproj">
+      <Project>{f5087ec2-c9db-4dd2-ba9d-271aad2eca5a}</Project>
+      <Name>SSISExplorer.Diagram</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

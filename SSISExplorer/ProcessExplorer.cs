@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using SSISExplorer.Diagram;
 
 namespace SSISExplorer
 {
@@ -27,7 +28,7 @@ namespace SSISExplorer
         Catalog catalog;
 
 
-        SSISDiagram diagram;
+         SSISDiagram diagram;
         Bitmap c;
         private Graphics _graphics;
 
