@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSISExplorer", "SSISExplorer\SSISExplorer.csproj", "{8347396C-02DD-4D22-8DA0-0AD6646AC85D}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSISExplorer.Test.Examples", "SSISExplorer.TestPackages\SSISExplorer.Test.Examples.dtproj", "{2645022B-72FB-4388-B2FC-3DB17C39D922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSISExplorer.Diagram", "SSISExplorer.Diagram\SSISExplorer.Diagram.csproj", "{F5087EC2-C9DB-4DD2-BA9D-271AAD2ECA5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8347396C-02DD-4D22-8DA0-0AD6646AC85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8347396C-02DD-4D22-8DA0-0AD6646AC85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8347396C-02DD-4D22-8DA0-0AD6646AC85D}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{8347396C-02DD-4D22-8DA0-0AD6646AC85D}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{8347396C-02DD-4D22-8DA0-0AD6646AC85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8347396C-02DD-4D22-8DA0-0AD6646AC85D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2645022B-72FB-4388-B2FC-3DB17C39D922}.Debug|Any CPU.ActiveCfg = Development
+		{2645022B-72FB-4388-B2FC-3DB17C39D922}.Debug|Any CPU.Build.0 = Development
+		{2645022B-72FB-4388-B2FC-3DB17C39D922}.Development|Any CPU.ActiveCfg = Development
+		{2645022B-72FB-4388-B2FC-3DB17C39D922}.Development|Any CPU.Build.0 = Development
+		{2645022B-72FB-4388-B2FC-3DB17C39D922}.Release|Any CPU.ActiveCfg = Development
+		{2645022B-72FB-4388-B2FC-3DB17C39D922}.Release|Any CPU.Build.0 = Development
+		{F5087EC2-C9DB-4DD2-BA9D-271AAD2ECA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5087EC2-C9DB-4DD2-BA9D-271AAD2ECA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5087EC2-C9DB-4DD2-BA9D-271AAD2ECA5A}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5087EC2-C9DB-4DD2-BA9D-271AAD2ECA5A}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{F5087EC2-C9DB-4DD2-BA9D-271AAD2ECA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5087EC2-C9DB-4DD2-BA9D-271AAD2ECA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54033ECC-D6D8-4610-93F8-F8F91EA7EDCB}
+	EndGlobalSection
+EndGlobal
