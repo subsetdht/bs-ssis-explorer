@@ -1,7 +1,0 @@
-C:\dev\SSIS Explorer - Init Load - Integration Services Project3\SSISExplorer.Diagram\obj\Debug\SSISExplorer.Diagram.csprojAssemblyReference.cache
-C:\dev\SSIS Explorer - Init Load - Integration Services Project3\SSISExplorer.Diagram\obj\Debug\SSISExplorer.Diagram.csproj.CoreCompileInputs.cache
-C:\dev\SSIS Explorer - Init Load - Integration Services Project3\SSISExplorer.Diagram\bin\Debug\SSISExplorer.Diagram.dll.config
-C:\dev\SSIS Explorer - Init Load - Integration Services Project3\SSISExplorer.Diagram\bin\Debug\SSISExplorer.Diagram.dll
-C:\dev\SSIS Explorer - Init Load - Integration Services Project3\SSISExplorer.Diagram\bin\Debug\SSISExplorer.Diagram.pdb
-C:\dev\SSIS Explorer - Init Load - Integration Services Project3\SSISExplorer.Diagram\obj\Debug\SSISExplorer.Diagram.dll
-C:\dev\SSIS Explorer - Init Load - Integration Services Project3\SSISExplorer.Diagram\obj\Debug\SSISExplorer.Diagram.pdb
